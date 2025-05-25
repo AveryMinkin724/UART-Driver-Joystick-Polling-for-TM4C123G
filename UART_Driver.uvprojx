@@ -399,6 +399,26 @@
               <FileType>1</FileType>
               <FilePath>.\uart.c</FilePath>
             </File>
+            <File>
+              <FileName>joystick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\joystick.c</FilePath>
+            </File>
+            <File>
+              <FileName>joystick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\joystick.h</FilePath>
+            </File>
+            <File>
+              <FileName>mcu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\mcu.c</FilePath>
+            </File>
+            <File>
+              <FileName>mcu.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\mcu.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -1,1 +1,1 @@
-./objects/main.o: main.c uart.h tm4c.h
+./objects/main.o: main.c uart.h joystick.h mcu.h tm4c.h

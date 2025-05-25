@@ -22,7 +22,7 @@ void uart_init(void)
 		UART5_CTL_R &= ~0x01;  
 		//UART Clock Config (baud clock), chose system clock: 16MHz default
 		UART5_CC_R = 0;
-		// for 115200, Baud Rate Divisor 8.680555 (notice these are deidated registers for the buad rates, you can overwrite what is in these so = suffices
+		// for 115200, Baud Rate Divisor 8.680555 (notice these are dedicated registers for the buad rates, you can overwrite what is in these so = suffices
 		UART5_IBRD_R = 8; //integer part
 		UART5_FBRD_R = 44; //fractional Part: 0.68055*64 +.5 = 44: (44/64) fractiono of lower 6 bits
 		//LCRH : data length 8-bit, not parity bit, no FIFO
